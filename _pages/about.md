@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: ML Radar
 permalink: /
 description: Notebook for papers we read
 
@@ -11,6 +11,16 @@ profile:
 news: fals  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
+pagination:
+  enabled: true
+  collection: posts
+  permalink: /page/:num/
+  per_page: 3
+  sort_field: date
+  sort_reverse: true
+  trail:
+    before: 1 # The number of links before the current page
+    after: 3  # The number of links after the current page
 ---
 
 <div class="post">
