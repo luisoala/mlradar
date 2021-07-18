@@ -1,6 +1,6 @@
 ---
 layout: about
-title: ML Radar
+title: About
 permalink: /
 description: Notebook for papers we read
 
